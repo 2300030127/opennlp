@@ -64,21 +64,21 @@ For recent news, updates, and topics, you can:
 
 Please, also check the [![Stack Overflow](https://img.shields.io/badge/-Stack%20Overflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/questions/tagged/opennlp) community's OpenNLP questions and answers.
 
-## Overview
+Currently, the library includes the following packages:
 
-Currently, the library has different packages:
+    opennlp-tools: The core toolkit.
 
-* `opennlp-tools` : The core toolkit.
-* `opennlp-tools-models` : A set of classes to load [OpenNLP models](https://github.com/apache/opennlp-models) from the classpath.
-* `opennlp-uima` : A set of [Apache UIMA](https://uima.apache.org) annotators.
-* `opennlp-morfologik-**add-on**` : An **add-on** for Morfologik.
-* `opennlp-dl` : OpenNLP interface implementations for ONNX models using the `onnxruntime` dependency.
-* `opennlp-dl-gpu` : Replaces `onnxruntime` with the `onnxruntime_gpu` dependency to support GPU acceleration.
-* `opennlp-sandbox`: Other projects in progress are found in the [sandbox](https://github.com/apache/opennlp-sandbox)
+    opennlp-tools-models: A set of classes to load OpenNLP models from the classpath.
 
-## Getting Started
+    opennlp-uima: A set of Apache UIMA annotators.
 
-You can import the core toolkit directly from Maven, SBT, or Gradle:
+    opennlp-morfologik-addon: An add-on for Morfologik.
 
-#### Maven
+    opennlp-dl: OpenNLP interface implementations for ONNX models using the onnxruntime dependency.
+
+    opennlp-dl-gpu: Uses onnxruntime_gpu instead of onnxruntime to enable GPU acceleration.
+
+    opennlp-sandbox: Experimental and in-progress projects are available in the sandbox.
+
+
 
